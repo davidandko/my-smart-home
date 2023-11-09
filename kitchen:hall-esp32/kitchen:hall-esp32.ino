@@ -11,14 +11,14 @@ homeSpan.begin(Catergory::Bridges,"Kitchen/Hall Relays");
 new SpanAccessory();
   new Service::AccessoryInformation();
     new Characteristic::Identify();
-  new my_relay(13); // input pin number here
+  new my_relay(32); // input pin number here
 
 
 // Hall Relay
 new SpanAccessory();
   new Service::AccessoryInformation();
     new Characteristic::Identify();
-  new my_relay(15); // input pin number here
+  new my_relay(25); // input pin number here
 }
 
 void loop() {
